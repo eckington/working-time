@@ -23,7 +23,7 @@ public class CarController : MonoBehaviour
 
     private void PerformMovement()
     {
-        _rb.MovePosition(_rb.position + ((transform.right * 1).normalized * _speed) * Time.deltaTime);
+        _rb.MovePosition(_rb.position + (transform.right * 1).normalized * _speed * Time.deltaTime);
     }
 
     private void OnTriggerEnter(Collider trigger)

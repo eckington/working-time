@@ -42,7 +42,7 @@ public class PlayerController : MonoBehaviour
                 return;
             }
             _hitCount += 1;
-            _gm.PlayerHit(_hitCount);
+            _gm.PlayerHit(1);
         } else if (trigger.CompareTag("Finish"))
         {
             _motor.StopMoving();
