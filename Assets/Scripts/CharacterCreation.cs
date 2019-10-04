@@ -1,31 +1,56 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CharacterCreation : MonoBehaviour
 {
-    private List<GameObject> models;
+    private List<GameObject> _models;
     // Default index
-    private int selectionIndex = 0;
+    private int _selectionIndex;
+    private int _currentValue;
+
+    [SerializeField]
+    private Dropdown _dropdown;
+
+    [SerializeField]
+    private Button _playButton;
 
     private void Start()
     {
-        models = new List<GameObject>();
+        _models = new List<GameObject>();
         foreach (Transform t in transform)
         {
-            models.Add(t.gameObject);
+            _models.Add(t.gameObject);
             t.gameObject.SetActive(false);
         }
 
-        models[selectionIndex].SetActive(true);
+        _models[_selectionIndex].SetActive(true);
+        _playButton.onClick.AddListener(LoadGame);
+    }
+
+    private void LoadGame()
+    {
+        SceneManager.LoadScene(1, LoadSceneMode.Additive);
+        SceneManager.UnloadSceneAsync(0);
+    }
+
+    private void Update()
+    {
+        if (_dropdown.value != _currentValue)
+        {
+            _currentValue = _dropdown.value;
+            Select(_dropdown.value);
+        }
     }
 
     public void Select(int index)
     {
-        if (index == selectionIndex) return;
-        if (index < 0 || index >= models.Count) return;
+        if (index == _selectionIndex) return;
+        if (index < 0 || index >= _models.Count) return;
 
-        models[selectionIndex].SetActive(false);
-        selectionIndex = index;
-        models[selectionIndex].SetActive(true);
+        _models[_selectionIndex].SetActive(false);
+        _selectionIndex = index;
+        _models[_selectionIndex].SetActive(true);
     }
 }
