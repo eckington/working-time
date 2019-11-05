@@ -16,6 +16,8 @@ public class CharacterCreation : MonoBehaviour
     [SerializeField]
     private Button _playButton;
 
+    private int _meep;
+
     private void Start()
     {
         _models = new List<GameObject>();
