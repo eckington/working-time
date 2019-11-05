@@ -1,0 +1,19 @@
+#+TITLE: Working Time Todo
+#+AUTHOR: Hayden Young <hayden@haydennyyy.com>
+#+DATE: 2019-11-05
+
+* Working Time Videogame
+
+** TODO Make main menu 
+   SCHEDULED: <2019-11-10>
+   There's no point making the game to a good standard if there's no
+   effort put into creating a main menu for it.
+
+*** TODO Create character selection tool
+    This needs to be made so that we meet the criteria for character
+    choices.
+
+** TODO Allow user to pick difficulty
+   Perhaps this would affect the speed at which the cars move, or the
+   rate at which they respawn.
+
