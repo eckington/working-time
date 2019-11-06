@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
         winOrLoseText.text = "";
         _initialHPLength = currentHealth.rectTransform.sizeDelta.x;
         print(_initialHPLength);
-        SceneManager.UnloadScene(0);
+        SceneManager.UnloadSceneAsync(0);
     }
 
     private void Update()
