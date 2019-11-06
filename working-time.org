@@ -4,10 +4,12 @@
 
 * Working Time Videogame
 
-** TODO Make main menu 
+** TODO Make main menu
    SCHEDULED: <2019-11-10>
    There's no point making the game to a good standard if there's no
    effort put into creating a main menu for it.
+
+   (this is complete now, just need to make charsel)
 
 *** TODO Create character selection tool
     This needs to be made so that we meet the criteria for character
