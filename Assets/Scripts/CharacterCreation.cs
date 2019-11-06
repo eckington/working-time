@@ -29,6 +29,9 @@ public class CharacterCreation : MonoBehaviour
 
         _models[_selectionIndex].SetActive(true);
         _playButton.onClick.AddListener(LoadGame);
+
+        PlayerPrefs.SetInt("character", 0);
+        PlayerPrefs.Save();
     }
 
     private void LoadGame()

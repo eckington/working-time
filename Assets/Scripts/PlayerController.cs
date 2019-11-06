@@ -9,6 +9,12 @@ public class PlayerController : MonoBehaviour
 	[SerializeField]
 	private Camera _camera;
 
+    [SerializeField]
+    private Mesh[] _meshes;
+
+    [SerializeField]
+    private MeshFilter _filter;
+
     private int _hitCount;
 
     private PlayerMotor _motor;
@@ -16,6 +22,9 @@ public class PlayerController : MonoBehaviour
 
     public void Start()
     {
+        var choice = PlayerPrefs.GetInt("character", 0);
+        Debug.Log(choice);
+        _filter.sharedMesh = _meshes[choice];
         _motor = GetComponent<PlayerMotor>();
         _gm = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
     }
