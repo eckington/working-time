@@ -34,7 +34,6 @@ public class CharacterCreation : MonoBehaviour
     private void LoadGame()
     {
         SceneManager.LoadScene(1, LoadSceneMode.Additive);
-        SceneManager.UnloadSceneAsync(0);
     }
 
     private void Update()
