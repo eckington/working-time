@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public Image blackPanel;
-	public Text winOrLoseText;
-    public int timeToFade = 3;
+  	public Text winOrLoseText;
+    public float timeToFade = 0.5f;
     public Text timer;
     public Image currentHealth;
 
@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
         winOrLoseText.text = "";
         _initialHPLength = currentHealth.rectTransform.sizeDelta.x;
         print(_initialHPLength);
+        SceneManager.UnloadScene(0);
     }
 
     private void Update()
