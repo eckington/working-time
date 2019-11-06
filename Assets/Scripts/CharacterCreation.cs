@@ -53,5 +53,8 @@ public class CharacterCreation : MonoBehaviour
         _models[_selectionIndex].SetActive(false);
         _selectionIndex = index;
         _models[_selectionIndex].SetActive(true);
+
+        PlayerPrefs.SetInt("character", index);
+        PlayerPrefs.Save();
     }
 }
