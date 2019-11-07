@@ -10237,6 +10237,21 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3003638346458687689, guid: d65a5b2ce23de4785abc9f7b2986879f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3003638346458687689, guid: d65a5b2ce23de4785abc9f7b2986879f,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3003638346458687689, guid: d65a5b2ce23de4785abc9f7b2986879f,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 1.6
+      objectReference: {fileID: 0}
     - target: {fileID: 3003638347134076880, guid: d65a5b2ce23de4785abc9f7b2986879f,
         type: 3}
       propertyPath: m_Enabled
@@ -10418,21 +10433,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -2432090755550338912, guid: 64f2bc78f463f48eca02d83ea0aaf316,
         type: 3}
-    - target: {fileID: 3003638346458687689, guid: d65a5b2ce23de4785abc9f7b2986879f,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3003638346458687689, guid: d65a5b2ce23de4785abc9f7b2986879f,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 2.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3003638346458687689, guid: d65a5b2ce23de4785abc9f7b2986879f,
-        type: 3}
-      propertyPath: m_Size.z
-      value: 1.6
-      objectReference: {fileID: 0}
     - target: {fileID: 3003638346458687687, guid: d65a5b2ce23de4785abc9f7b2986879f,
         type: 3}
       propertyPath: _renderers.Array.size
@@ -10451,7 +10451,7 @@ PrefabInstance:
     - target: {fileID: 3003638346458687687, guid: d65a5b2ce23de4785abc9f7b2986879f,
         type: 3}
       propertyPath: _meshes.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3003638346458687687, guid: d65a5b2ce23de4785abc9f7b2986879f,
         type: 3}
@@ -10503,6 +10503,12 @@ PrefabInstance:
       propertyPath: _meshes.Array.data[1]
       value: 
       objectReference: {fileID: -2432090755550338912, guid: 0c729f4b0e71e4299b59445f4add5d37,
+        type: 3}
+    - target: {fileID: 3003638346458687687, guid: d65a5b2ce23de4785abc9f7b2986879f,
+        type: 3}
+      propertyPath: _meshes.Array.data[2]
+      value: 
+      objectReference: {fileID: -2432090755550338912, guid: c1ec90d16bfedbb99a2aca32ab5287a6,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d65a5b2ce23de4785abc9f7b2986879f, type: 3}
