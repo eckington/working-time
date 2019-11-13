@@ -10317,6 +10317,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 250
       objectReference: {fileID: 0}
+    - target: {fileID: 5645270295049499504, guid: d65a5b2ce23de4785abc9f7b2986879f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3003638346458687685, guid: d65a5b2ce23de4785abc9f7b2986879f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10382,6 +10387,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 51.200195
       objectReference: {fileID: 0}
+    - target: {fileID: 3003638346787893906, guid: d65a5b2ce23de4785abc9f7b2986879f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8595825547578899492, guid: d65a5b2ce23de4785abc9f7b2986879f,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -10420,12 +10430,12 @@ PrefabInstance:
     - target: {fileID: 6931456645582116256, guid: d65a5b2ce23de4785abc9f7b2986879f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8068880157760997080, guid: d65a5b2ce23de4785abc9f7b2986879f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3003638346458687686, guid: d65a5b2ce23de4785abc9f7b2986879f,
         type: 3}
@@ -10451,7 +10461,7 @@ PrefabInstance:
     - target: {fileID: 3003638346458687687, guid: d65a5b2ce23de4785abc9f7b2986879f,
         type: 3}
       propertyPath: _meshes.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3003638346458687687, guid: d65a5b2ce23de4785abc9f7b2986879f,
         type: 3}
@@ -10510,6 +10520,33 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -2432090755550338912, guid: c1ec90d16bfedbb99a2aca32ab5287a6,
         type: 3}
+    - target: {fileID: 3003638346458687687, guid: d65a5b2ce23de4785abc9f7b2986879f,
+        type: 3}
+      propertyPath: _meshes.Array.data[3]
+      value: 
+      objectReference: {fileID: -2432090755550338912, guid: 32156cc195fd583279a38334746ad714,
+        type: 3}
+    - target: {fileID: 3003638346458687687, guid: d65a5b2ce23de4785abc9f7b2986879f,
+        type: 3}
+      propertyPath: _meshes.Array.data[4]
+      value: 
+      objectReference: {fileID: -2432090755550338912, guid: 416b877ebfb21231a9c86235f016695d,
+        type: 3}
+    - target: {fileID: 3003638348418024475, guid: d65a5b2ce23de4785abc9f7b2986879f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3003638347134076883, guid: d65a5b2ce23de4785abc9f7b2986879f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 759872624495602739, guid: d65a5b2ce23de4785abc9f7b2986879f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d65a5b2ce23de4785abc9f7b2986879f, type: 3}
 --- !u!33 &3003638347843277919 stripped
